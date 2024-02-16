@@ -1,14 +1,58 @@
 .fondo {
-    background-image: url("../Imagenes/CBLP COLOR fondo blanco.jpg");
+    background-image: url("");
     background-size: cover;
     /* Ajusta la imagen para cubrir todo el contenedor */
     background-position: center;
     /* Centra la imagen dentro del contenedor */
     background-attachment: fixed;
     /* Hace que la imagen de fondo permanezca fija en su posición */
+    height: 100vh; /* Altura del fondo igual al 100% del viewport height */
 }
 
 .centrado {
     /* Alineado, en este caso del titulo*/
     text-align: center;
+}
+
+
+header {
+    /* Color de fondo gris oscuro */
+    background-color: #fd3c3c;
+
+    /* Relleno de 20 píxeles en todos los lados del elemento */
+    padding: 20px;
+}
+
+/* Estilo para listas desordenadas dentro de elementos <nav> */
+
+nav ul {
+    /* Elimina los marcadores de lista predeterminados */
+    list-style-type: none;
+
+    /* Elimina el margen exterior */
+    margin: 0;
+
+    /* Elimina el relleno interior */
+    padding: 0;
+}
+
+/* Estilo para los elementos <li> que están dentro de listas desordenadas dentro de elementos <nav> */
+
+nav ul li {
+    /* Muestra los elementos en línea, uno al lado del otro */
+    display: inline;
+
+    /* Agrega un margen a la derecha de cada elemento para separarlos */
+    margin-right: 10px;
+}
+
+nav ul li a {
+    /* Color del texto blanco para los enlaces */
+    color: white;
+
+    /* Elimina la decoración de subrayado predeterminada para los enlaces */
+    text-decoration: none;
+}
+.derecha {
+    float: right; /* Coloca el elemento alineado a la derecha */
 }
