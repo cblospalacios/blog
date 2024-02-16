@@ -16,11 +16,14 @@
 
 
 header {
-    /* Color de fondo gris oscuro */
+    /* Color de fondo */
     background-color: #fd3c3c;
+
 
     /* Relleno de 20 píxeles en todos los lados del elemento */
     padding: 20px;
+    border: 5px solid #000000; /* Borde */
+ 
 }
 
 /* Estilo para listas desordenadas dentro de elementos <nav> */
@@ -55,4 +58,27 @@ nav ul li a {
 }
 .derecha {
     float: right; /* Coloca el elemento alineado a la derecha */
+}
+
+#titulo{
+    color: whitesmoke;
+    text-align: center;
+}
+
+#menu{
+    text-align: center;
+}
+
+.indice{
+    margin: 1rem;
+    transition: 0.5s;
+
+}
+
+.indice :hover{
+    color: #000000;
+    font-size:110%;
+    
+    transform: rotate(360deg);
+    
 }
