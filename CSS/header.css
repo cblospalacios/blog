@@ -1,14 +1,51 @@
-body {
-    font-family: "Montserrat Alternates", sans-serif;
-    font-weight: 500;
-    font-style: normal;
-}
-
 .header {
     background-color: rgba(175, 0, 0, 0.8);
     font-family: "Montserrat Alternates", sans-serif;
     font-weight: bold;
     font-style: normal;
     font-size: 1.2rem;
-    
+}
+
+.redes {
+    position: absolute;
+    right: 10%;
+    display: flex;
+    gap: 0px;
+}
+
+.redes i {
+    font-size: 40px;
+}
+
+@media screen and (max-width:992px) {
+    html {
+        font-size: 13px;
+    }
+    .redes {
+        position: relative;
+        right: auto;
+        display: flex;
+        gap: 15px;
+    }
+
+    .redes i {
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    html {
+        font-size: 11px;
+    }
+
+    .redes {
+        position: relative;
+        right: auto;
+        display: flex;
+        gap: 15px;
+    }
+
+    .redes i {
+        font-size: 20px;
+    }
 }
