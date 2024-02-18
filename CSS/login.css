@@ -48,3 +48,10 @@ body {
 .carousel-item {
     transition-duration: 1s !important;
 }
+
+/* Estilo para centrar horizontalmente el contenedor del logotipo */
+.logo-container {
+    margin-left: auto;  /* Establece el margen izquierdo automático */
+    margin-right: auto; /* Establece el margen derecho automático */
+    text-align: center; /* Alinea el contenido al centro */
+}
