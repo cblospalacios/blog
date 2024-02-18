@@ -1,0 +1,50 @@
+:root {
+    --dark: #16191c;
+    --dark-x: #1e2126;
+    --light: #fff;
+}
+
+body {
+    font-family: "Montserrat Alternates", sans-serif !important;
+    color: var(--light) !important;
+    font-weight: 500;
+
+}
+
+.bg-dark-2 {
+    background-color: var(--dark) !important;
+}
+
+.bg-dark-x {
+    background-color: var(--dark-x) !important;
+}
+
+.form-control, .btn {
+    min-height: 3.125rem;
+    line-height: initial;
+}
+
+.img-1 {
+    background-image: url("../Imagenes/CBLP LogoPNG.png");
+    background-size: 350px auto;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.img-2 {
+    background-image: url("../Imagenes/CB\ LP\ -\ BLANCO.png");
+    background-size: 600px auto;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.img-3 {
+    background-image: url("../Imagenes/CB\ LP\ -\ ROJO.png");
+    background-size: 600px auto;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.carousel-item {
+    transition-duration: 1s !important;
+}
