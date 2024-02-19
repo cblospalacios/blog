@@ -41,6 +41,8 @@
     display: flex; /* Hace que el partido sea un contenedor flexible */
     align-items: center; /* Centra los elementos verticalmente dentro del partido */
     margin-right: 20px; /* Espacio entre los partidos */
+    border-right: 2px solid #ccc; /* Separador entre partidos */
+    padding-right: 20px; /* Espaciado entre el separador y los elementos del partido */
 }
 
 /* Estilos para cada equipo */
