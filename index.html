@@ -19,15 +19,15 @@
         content="Baloncesto, Los Palacios, CB Los palacios, Deporte, Sevilla, basket, pedidos, pagos, inscripciones">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="stylesheet" href="CSS/header.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <title>CB Los Palacios</title>
+    <link rel="stylesheet" href="CSS/partidos.css">
     
     <!-- Agrega tus estilos personalizados aquí -->
     
 </head>
 
-<body>
+<body class="fondo">
 
     <!-- Cabecera -->
     <div class="container-fluid w-100" style="padding: 0%;">
@@ -58,7 +58,7 @@
                             <a href="#" class="nav-link">CLUB</a>
                         </li>
                         <li class="nav-item">
-                            <a href="#" class="nav-link">TIENDA</a>
+                            <a href="./tienda.html" class="nav-link">TIENDA</a>
                         </li>
                         <li class="nav-item">
                             <a href="./login.html" class="nav-link">INICIAR SESIÓN</a>
@@ -77,6 +77,112 @@
         </nav>
     </div>
 
+  <!-- Contenedor de los partidos -->
+  <div class="partidos-flex-container">
+    <!-- Partido 1 -->
+    <div class="partido">
+        <div class="equipo">
+            <img src="ruta/a/logo1.jpg" alt="Logo del Club 1">
+            <h3>Equipo A</h3>
+        </div>
+        <span class="vs">VS</span>
+        <div class="equipo">
+            <img src="ruta/a/logo2.jpg" alt="Logo del Club 2">
+            <h3>Equipo B</h3>
+        </div>
+        <p class="fecha">Fecha: DD/MM/AAAA</p>
+    </div>
+
+    <!-- Partido 2 -->
+    <div class="partido">
+        <div class="equipo">
+            <img src="ruta/b/logo1.jpg" alt="Logo del Club 1">
+            <h3>Equipo C</h3>
+        </div>
+        <span class="vs">VS</span>
+        <div class="equipo">
+            <img src="ruta/b/logo2.jpg" alt="Logo del Club 2">
+            <h3>Equipo D</h3>
+        </div>
+        <p class="fecha">Fecha: DD/MM/AAAA</p>
+    </div>
+
+    <!-- Partido 3 -->
+    <div class="partido">
+        <div class="equipo">
+            <img src="ruta/c/logo1.jpg" alt="Logo del Club 1">
+            <h3>Equipo E</h3>
+        </div>
+        <span class="vs">VS</span>
+        <div class="equipo">
+            <img src="ruta/c/logo2.jpg" alt="Logo del Club 2">
+            <h3>Equipo F</h3>
+        </div>
+        <p class="fecha">Fecha: DD/MM/AAAA</p>
+    </div>
+
+    <!-- Partido 4 -->
+    <div class="partido">
+        <div class="equipo">
+            <img src="ruta/d/logo1.jpg" alt="Logo del Club 1">
+            <h3>Equipo G</h3>
+        </div>
+        <span class="vs">VS</span>
+        <div class="equipo">
+            <img src="ruta/d/logo2.jpg" alt="Logo del Club 2">
+            <h3>Equipo H</h3>
+        </div>
+        <p class="fecha">Fecha: DD/MM/AAAA</p>
+    </div>
+
+    <!-- Partido 5 -->
+    <div class="partido">
+        <div class="equipo">
+            <img src="ruta/e/logo1.jpg" alt="Logo del Club 1">
+            <h3>Equipo I</h3>
+        </div>
+        <span class="vs">VS</span>
+        <div class="equipo">
+            <img src="ruta/e/logo2.jpg" alt="Logo del Club 2">
+            <h3>Equipo J</h3>
+        </div>
+        <p class="fecha">Fecha: DD/MM/AAAA</p>
+    </div>
+
+    <!-- Partido 6 -->
+    <div class="partido">
+        <div class="equipo">
+            <img src="ruta/f/logo1.jpg" alt="Logo del Club 1">
+            <h3>Equipo K</h3>
+        </div>
+        <span class="vs">VS</span>
+        <div class="equipo">
+            <img src="ruta/f/logo2.jpg" alt="Logo del Club 2">
+            <h3>Equipo L</h3>
+        </div>
+        <p class="fecha">Fecha: DD/MM/AAAA</p>
+    </div>
+
+    <!-- Partido 7 -->
+    <div class="partido">
+        <div class="equipo">
+            <img src="ruta/g/logo1.jpg" alt="Logo del Club 1">
+            <h3>Equipo M</h3>
+        </div>
+        <span class="vs">VS</span>
+        <div class="equipo">
+            <img src="ruta/g/logo2.jpg" alt="Logo del Club 2">
+            <h3>Equipo N</h3>
+        </div>
+        <p class="fecha">Fecha: DD/MM/AAAA</p>
+    </div>
+</div>
+
+<!-- Botón de flecha para navegar a los partidos adicionales -->
+<button class="flecha-izquierda">&lt;</button>
+<button class="flecha-derecha">&gt;</button>
+
+    
     <!-- Contenido principal -->
     <main>
         <div class="container">
@@ -87,7 +193,7 @@
                     <div class="card noticia">
                         <img src="./Imagenes/Mixto/mixtovstriana.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title">Victoria de nuestro senior IMD que asegura su plaza en la fase de ascenso</h5>
+                            <h5 class="card-title">Victoria de nuestro Senior IMD que asegura su plaza en la fase de ascenso</h5>
                         </div>
                     </div>
                 </div>
@@ -107,7 +213,7 @@
                     <div class="card noticia">
                         <img src="./Imagenes/Mixto/godibanquillazo.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title">¿Que hace Godi en el banquillo? </h5>
+                            <h5 class="card-title">¿Qué hace Godi en el banquillo?  </h5>
                         </div>
                     </div>
                 </div>
@@ -131,7 +237,7 @@
     <footer class="footer text-center mt-5">
         <div class="container">
             <a href="./index.html" class="navbar-brand">
-                <img src="Imagenes/CBLP LogoPNG.png" alt="" height="50">
+                <img src="Imagenes/CBLP LogoPNG.png" alt="" height="100">
             </a>
             <div class="redes">
                 <a href="https://www.facebook.com/CBLosPalacios" class="nav-link" target="_blank"><i
@@ -142,6 +248,7 @@
             <p>&copy; 2024 CB Los Palacios. Todos los derechos reservados.</p>
         </div>
     </footer>
+    
 
     <!-- Scripts -->
     <script src="

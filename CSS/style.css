@@ -9,11 +9,7 @@
     object-fit: cover;
 }
 
-/* Estilos para el pie de página */
-.footer {
-    background-color: #0D3B66;
-    color: white;
-}
+
 
 .footer .navbar-brand img {
     height: 50px;
@@ -43,57 +39,26 @@
     width: auto;
     float
 
+/* Estilos para el footer */
 
-    </head>
+.footer {
+    padding: 50px 0;
+    background-color: rgba(175, 0, 0, 0.8);
+    color: #fff; /* Color del texto */
+}
 
-<body>
-    <div class="container-fluid w-100" style="padding: 0%;">
-        <nav class="navbar navbar-expand-lg navbar-light header">
-            <div class="container">
-                <a href="./index.html" class="navbar-brand" style="margin-right: 30px;">
-                    <img src="Imagenes/CBLP LogoPNG.png" alt="" height="77">
-                </a>
-                <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#mi-menu"
-                    style="background-color: aliceblue;">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="mi-menu">
-                    <ul class="navbar-nav">
-                        <li class="nav-item">
-                            <a href="./index.html" class="nav-link">INICIO</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#" class="nav-link">NOTICIAS</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#" class="nav-link">EQUIPOS</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#" class="nav-link">INSCRIPCIONES</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#" class="nav-link">CLUB</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#" class="nav-link">TIENDA</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="./login.html" class="nav-link">INICIAR SESIÓN</a>
+.footer a {
+    color: #fff; /* Color de los enlaces */
+}
 
-                        </li>
-                        <li class="nav-item">
-                            <div class="redes">
-                                <a href="https://www.facebook.com/CBLosPalacios" class="nav-link" target="_blank"><i
-                                        class='bx bxl-facebook-square'></i></a>
-                                <a href="https://www.instagram.com/cblospalacios/" class="nav-link" target="_blank"><i
-                                        class='bx bxl-instagram-alt'></i></a>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-    </div>
+.redes {
+    margin-top: 20px;
+}
+
+.redes a {
+    color: #fff;
+    font-size: 24px; /* Tamaño de los iconos */
+    margin-right: 10px; /* Espaciado entre los iconos */
+}
 
 
-    <main>
