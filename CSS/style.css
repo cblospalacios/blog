@@ -1,73 +1,99 @@
-body {
-    margin: 0;
-    padding: 0;
-    position: relative;
-    font-family: "Montserrat ", sans-serif;
-    font-weight: 500;
-    font-style: normal;
+/* Estilos para las noticias */
+.noticia {
+    height: 300px;
 }
 
-iframe {
+.noticia img {
+    height: 100%;
     width: 100%;
-    height: 103px;
-    border-style: none;
+    object-fit: cover;
 }
 
-.fondo {
-    background-image: url("");
-    background-size: cover;
-    /* Ajusta la imagen para cubrir todo el contenedor */
-    background-position: center;
-    /* Centra la imagen dentro del contenedor */
-    background-attachment: fixed;
-    /* Hace que la imagen de fondo permanezca fija en su posición */
-    height: 100vh; /* Altura del fondo igual al 100% del viewport height */
-}
-
-.centrado {
-    /* Alineado, en este caso del titulo*/
-    text-align: center;
-}
-
-
-header {
-    /* Color de fondo */
-    background-color: #fd3c3c;
-
-
-    /* Relleno de 20 píxeles en todos los lados del elemento */
-    padding: 20px;
-    border: 5px solid #000000; /* Borde */
- 
-}
-
-/* Estilo para listas desordenadas dentro de elementos <nav> */
-
-nav ul {
-    /* Elimina los marcadores de lista predeterminados */
-    list-style-type: none;
-
-    /* Elimina el margen exterior */
-    margin: 0;
-
-    /* Elimina el relleno interior */
-    padding: 0;
-}
-
-/* Estilo para los elementos <li> que están dentro de listas desordenadas dentro de elementos <nav> */
-
-nav ul li {
-    /* Muestra los elementos en línea, uno al lado del otro */
-    display: inline;
-
-    /* Agrega un margen a la derecha de cada elemento para separarlos */
-    margin-right: 10px;
-}
-
-nav ul li a {
-    /* Color del texto blanco para los enlaces */
+/* Estilos para el pie de página */
+.footer {
+    background-color: #0D3B66;
     color: white;
-
-    /* Elimina la decoración de subrayado predeterminada para los enlaces */
-    text-decoration: none;
 }
+
+.footer .navbar-brand img {
+    height: 50px;
+}
+
+.redes a i {
+    color: white;
+}
+
+/* Estilos para los patrocinadores */
+.patrocinadores img {
+    width: 80px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+/* Estilos para las noticias */
+.noticia {
+    height: 400px;
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.noticia img {
+    height: 100%;
+    width: auto;
+    float
+
+
+    </head>
+
+<body>
+    <div class="container-fluid w-100" style="padding: 0%;">
+        <nav class="navbar navbar-expand-lg navbar-light header">
+            <div class="container">
+                <a href="./index.html" class="navbar-brand" style="margin-right: 30px;">
+                    <img src="Imagenes/CBLP LogoPNG.png" alt="" height="77">
+                </a>
+                <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#mi-menu"
+                    style="background-color: aliceblue;">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="mi-menu">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a href="./index.html" class="nav-link">INICIO</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">NOTICIAS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">EQUIPOS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">INSCRIPCIONES</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">CLUB</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">TIENDA</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="./login.html" class="nav-link">INICIAR SESIÓN</a>
+
+                        </li>
+                        <li class="nav-item">
+                            <div class="redes">
+                                <a href="https://www.facebook.com/CBLosPalacios" class="nav-link" target="_blank"><i
+                                        class='bx bxl-facebook-square'></i></a>
+                                <a href="https://www.instagram.com/cblospalacios/" class="nav-link" target="_blank"><i
+                                        class='bx bxl-instagram-alt'></i></a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+
+    <main>

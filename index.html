@@ -3,31 +3,41 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CB Los Palacios</title>
+    <link rel="icon" href="./Imagenes/CBLP LogoPNG.png" type="image/png">
+    <link rel="stylesheet" href="Bootstrap/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/header.css">
+    <meta charset="UTF-8">
     <meta name="googlebot" content="all">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Baloncesto, Los Palacios, CB Los palacios, Deporte, Sevilla, basket">
     <meta name="keywords"
         content="Baloncesto, Los Palacios, CB Los palacios, Deporte, Sevilla, basket, pedidos, pagos, inscripciones">
-    <link rel="icon" href="./Imagenes/CBLP LogoPNG.png" type="image/png">
-    <link rel="stylesheet" href="./css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="CSS/header.css">
-    <link rel="stylesheet" href="Bootstrap/bootstrap.min.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <title>CB Los Palacios</title>
     
+    <!-- Agrega tus estilos personalizados aquí -->
+    
 </head>
 
-<body class="fondo">
+<body>
+
+    <!-- Cabecera -->
     <div class="container-fluid w-100" style="padding: 0%;">
         <nav class="navbar navbar-expand-lg navbar-light header">
             <div class="container">
                 <a href="./index.html" class="navbar-brand" style="margin-right: 30px;">
                     <img src="Imagenes/CBLP LogoPNG.png" alt="" height="77">
                 </a>
-                <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#mi-menu" style="background-color: aliceblue;">
+                <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#mi-menu"
+                    style="background-color: aliceblue;">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="mi-menu">
@@ -45,6 +55,9 @@
                             <a href="#" class="nav-link">INSCRIPCIONES</a>
                         </li>
                         <li class="nav-item">
+                            <a href="#" class="nav-link">CLUB</a>
+                        </li>
+                        <li class="nav-item">
                             <a href="#" class="nav-link">TIENDA</a>
                         </li>
                         <li class="nav-item">
@@ -52,8 +65,10 @@
                         </li>
                         <li class="nav-item">
                             <div class="redes">
-                                <a href="https://www.facebook.com/CBLosPalacios" class="nav-link" target="_blank"><i class='bx bxl-facebook-square'></i></a>
-                                <a href="https://www.instagram.com/cblospalacios/" class="nav-link" target="_blank"><i class='bx bxl-instagram-alt'></i></a>
+                                <a href="https://www.facebook.com/CBLosPalacios" class="nav-link"
+                                    target="_blank"><i class='bx bxl-facebook-square'></i></a>
+                                <a href="https://www.instagram.com/cblospalacios/" class="nav-link"
+                                    target="_blank"><i class='bx bxl-instagram-alt'></i></a>
                             </div>
                         </li>
                     </ul>
@@ -61,8 +76,72 @@
             </div>
         </nav>
     </div>
-    <h1 class="centrado"></h1>
-    <script src="Bootstrap/bootstrap.bundle.min.js"></script>
-</body>
 
-</html>
+    <!-- Contenido principal -->
+    <main>
+        <div class="container">
+            <h2 class="mt-4 mb-4">Últimas noticias</h2>
+            <div class="row">
+                <!-- Noticia 1 -->
+                <div class="col-md-4">
+                    <div class="card noticia">
+                        <img src="./Imagenes/Mixto/mixtovstriana.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Victoria de nuestro senior IMD que asegura su plaza en la fase de ascenso</h5>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Noticia 2 -->
+                <div class="col-md-4">
+                    <div class="card noticia">
+                        <img src="./Imagenes/Mixto/nuñeygodi.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Nuñe y Godi se proclaman como mejores entrenadores de la comarca</h5>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Noticia 3 -->
+                <div class="col-md-4">
+                    <div class="card noticia">
+                        <img src="./Imagenes/Mixto/godibanquillazo.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">¿Que hace Godi en el banquillo? </h5>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Agrega más noticias aquí -->
+            </div>
+        </div>
+
+        <!-- Patrocinadores -->
+        <div class="container">
+            <h2 class="mt-5 mb-4">Patrocinadores</h2>
+            <div class="patrocinadores">
+                <img src="ruta/a/logo1.jpg" alt="Logo patrocinador 1">
+                <img src="ruta/a/logo2.jpg" alt="Logo patrocinador 2">
+                <!-- Agrega más logos de patrocinadores aquí -->
+            </div>
+        </div>
+    </main>
+
+    <!-- Pie de página -->
+    <footer class="footer text-center mt-5">
+        <div class="container">
+            <a href="./index.html" class="navbar-brand">
+                <img src="Imagenes/CBLP LogoPNG.png" alt="" height="50">
+            </a>
+            <div class="redes">
+                <a href="https://www.facebook.com/CBLosPalacios" class="nav-link" target="_blank"><i
+                        class='bx bxl-facebook-square'></i></a>
+                <a href="https://www.instagram.com/cblospalacios/" class="nav-link" target="_blank"><i
+                        class='bx bxl-instagram-alt'></i></a>
+            </div>
+            <p>&copy; 2024 CB Los Palacios. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="
