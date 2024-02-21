@@ -37,11 +37,11 @@
 .noticia img {
     height: 100%;
     width: auto;
-    float
-
+    
+}
 /* Estilos para el footer */
 
-.footer {
+footer {
     padding: 50px 0;
     background-color: rgba(175, 0, 0, 0.8);
     color: #fff; /* Color del texto */
