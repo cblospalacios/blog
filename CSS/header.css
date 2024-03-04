@@ -49,3 +49,23 @@
         font-size: 20px;
     }
 }
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background-color: rgba(191,51,51,255)  }
+  
+  .dropdown:hover .dropdown-menu {
+    display: block;
+  }
+  
+  .dropdown-item {
+    display: block;
+    padding: 5px 10px;
+  }
