@@ -1,53 +1,97 @@
 /* Estilos para la tabla */
 table {
-    width: 100%;
-    border-collapse: collapse;
-    margin-top: 20px;
-  }
-  
-  thead {
-    background-color: rgba(191,51,51,255);
-  }
-  
-  th, td {
-    padding: 10px;
-    text-align: left;
-    border-bottom: 1px solid #ddd;
-  }
-  
-  /* Estilos para las imágenes */
-  img {
-    max-width: 100px; /* Ajusta el tamaño máximo de las imágenes */
-    height: auto;
-    display: block;
-    margin: 0 auto; /* Centra las imágenes horizontalmente */
-  }
-  
-  /* Estilos para el contenedor de la tabla */
-  main {
-    max-width: 800px; /* Ajusta el ancho máximo del contenido */
-    margin: 0 auto;
-    padding: 20px;
-  }
-  
-  /* Estilos para el pie de página */
-  footer {
-    background-color: #333;
-    color: #fff;
-    padding: 20px;
-    text-align: center;
-  }
-  
-  .redes {
-    margin-top: 10px;
-  }
-  
-  .redes a {
-    color: #fff;
-    margin-right: 10px;
-  }
-  
-  .redes a:hover {
-    color: #ccc;
-  }
-  
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+thead {
+  background-color: rgba(175, 0, 0, 0.8);
+  color: #fff;
+}
+
+th, td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+
+/* Estilos para las filas impares */
+tbody tr:nth-child(odd) {
+  background-color: #f2f2f2;
+}
+
+/* Estilos para las imágenes */
+img {
+  max-width: 80px; /* Ajusta el tamaño máximo de las imágenes */
+  height: auto;
+  display: block;
+  margin: 0 auto; /* Centra las imágenes horizontalmente */
+}
+
+/* Estilos para el contenedor de la tabla */
+main {
+  max-width: 800px; /* Ajusta el ancho máximo del contenido */
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Estilos para el pie de página */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+.redes {
+  margin-top: 10px;
+}
+
+.redes a {
+  color: #fff;
+  margin-right: 10px;
+}
+
+.redes a:hover {
+  color: #ccc;
+}
+
+/* Estilos para la sección de información del equipo */
+
+.team-links {
+  display: flex;
+  gap: 10px;
+  text-align: center;
+  justify-content: center;
+
+
+}
+
+.team-photo img {
+  max-width:700px;
+  height: auto;
+  text-align: center;
+}
+
+/* Estilos para los botones */
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;}
+
+.btn-primary {
+  background-color: rgba(175, 0, 0, 0.8);
+  color: white;
+}
+
+.btn-primary:hover {
+  background-color: rgba(175, 0, 0, 0.8);
+}
