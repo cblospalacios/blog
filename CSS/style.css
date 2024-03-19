@@ -79,14 +79,14 @@
 }
 
 .logo img {
-    width: 60%;
+    width: 50%;
     height: auto;
     flex-basis: 40%;
     align-items: center;
 }
 
 .large-logo {
-    flex-basis: 20%;
+    flex-basis: 25%;
 }
 
 .medium-logo {
@@ -101,6 +101,13 @@
     display: flex;
     justify-content: space-between;
     width: 80%;
+}
+
+.primerpatrocinador-logo {
+
+    align-items: center;
+    width: 30%;
+    height: 40%;
 }
 
 @media (max-width: 768px) {
